@@ -1,0 +1,15 @@
+.about{
+    width: 900px;
+    height: 97%;
+    margin: 120px 0 0 140px;
+    text-align: center;
+}
+
+.about p {
+    font-size: 20px;
+}
+
+.about h2{ 
+    font-size: 30px;
+    margin-bottom: 50px;
+}

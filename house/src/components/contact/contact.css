@@ -1,0 +1,26 @@
+.contact{
+    width: 1000px;
+    height: 97%;
+    margin: 120px 0 0 200px;
+    text-align: center;
+}
+
+.contact h3{
+    font-size: 22px;
+}
+
+.contact input, .contact textarea {
+    width: 80%;
+}
+
+.contact label {
+    font-weight: 500;
+}
+
+.contact button{
+    width: 80%;
+    background-color:#c69963;
+    color: white;
+    padding: 8px 20px;
+    border: 0;
+}

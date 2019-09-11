@@ -1,0 +1,111 @@
+    .story__pictures {
+       /* background-color: #ccc0b0; */
+        grid-column: full-start / col-end 4;
+        /*  background-image: linear-gradient(rgba(#ccc0b0, .5), rgba(#ccc0b0, .5)), url(../img/back.jpg); */
+        background-size: cover;
+
+        display: flex;
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: repeat(6, 1fr);
+        align-items: center;
+
+
+        margin-top: 24rem;
+    }
+
+    @media only screen and (max-width: 50em) {
+        .story__pictures {
+            grid-column: 1 / -1;
+            padding: 6rem;
+        }
+    }
+
+    .story__img--1 {
+        width: 120%;
+        grid-row: 2 / 6;
+        grid-column: 2 / 6;
+        box-shadow: 0 2rem 5rem rgba(#000, .1);
+    }
+
+    @media only screen and (max-width: 50em) {
+        .story__img--1 {
+            grid-column: 1 / 5;
+            grid-row: 1 / -1;
+        }
+    }
+
+
+
+
+    .story__content {
+        background-color: #f9f7f6;
+        grid-column: col-start 5 / full-end;
+
+        padding: 3rem 8vw;
+
+        /*
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        */
+
+        display: grid;
+        align-content: center;
+        justify-items: start;
+
+        margin-top: 10rem;
+    }
+
+    
+    @media only screen and (max-width:50em) {
+        .story__content {
+            grid-column: 1 / -1;
+            grid-row: 5 / 6;
+        }
+    }
+
+    .heading-2 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        font-size: 4rem;
+        font-style: italic;
+        line-height: 1;
+    }
+        .heading-2--light { color: #f9f7f6; }
+        .heading-2--dark { color: #54483A; }
+    
+
+    .heading-3 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        font-size: 1.6rem;
+        color: #c69963;
+        text-transform: uppercase;
+    }
+
+
+
+    .story__text {
+        font-size: 1.5rem;
+        font-style: italic;
+        margin-bottom: 4rem;
+    }
+
+    .mb-sm {
+        margin-bottom: 2rem;
+    }
+
+    .mb-md {
+        margin-bottom: 3rem;
+    }
+
+    .mb-lg {
+        margin-bottom: 4rem;
+    }
+
+    .mb-hg {
+        margin-bottom: 8rem;
+    }
+
+    

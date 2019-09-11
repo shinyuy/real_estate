@@ -1,0 +1,75 @@
+.signin_container{
+    grid-column: full-start / col-end 9;
+    background-size: cover;
+    background-position: center;
+    padding: 8rem; 
+    padding-top: 4rem; 
+
+    display: grid;
+    justify-content: center;
+}
+
+.signin_wrapper{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    border-radius: 1rem;
+     text-align: center;
+
+    background-color: #101d2c; 
+}
+
+.signin_wrapper h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.9rem;
+    color: #c69963;
+    text-transform: uppercase; 
+    padding: 1rem 0;
+}
+
+
+.signin_wrapper input {
+    display: flex;
+    width: 50vw;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 3rem;
+    color: #c69963;
+    outline: #c69963;
+}
+
+.signin_wrapper button {
+    padding: .5rem 5rem;
+    border-radius: 1rem;
+    background-color: #c69963;
+    color: white;
+    font-size: 1.5rem;
+    border: 0;
+    cursor: pointer;
+}
+
+.signin_wrapper button:hover{
+    color: #c69963;
+    background-color: white;
+}
+
+
+
+@media only screen and (max-width: 50em) {
+    .signin_wrapper{
+       /* width: 110%; */
+        height: 98%;
+    }
+}
+
+@media only screen and (max-width: 37.5em) {
+    .signin_wrapper{
+        /* width: 110%; */
+         height: 98%;
+     }
+   
+}
